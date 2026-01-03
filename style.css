@@ -1,10 +1,43 @@
-*{
-    margin: 0;
+* {
+    margin: 2px;
     padding: 0;
     font-family: poppins, sans-serif;
 }
-body{
+body {
     justify-items: center;
     background-color: rgb(200, 200, 200);
-    background-image: url();
+    background-repeat: none;
+}
+.head {
+    width: 80%;
+    max-width: 400px;
+    padding: 5px;
+    background-image: url(images/pattern.jpg);
+    background-size: cover;
+    justify-items: center;
+    color: rgb(9, 0, 80);
+    border-radius: 50px;
+}
+p {
+    padding: 5px 10px;
+    text-align: justify;
+    color: blue;
+    border: 5px solid blue;
+    border-radius: 20px;
+    margin: 5px 0px;
+}
+button{
+    padding: 2px 50px;
+    background-color: rgb(255, 96, 229);
+    border: 2px solid rgb(255, 0, 162);
+    border-radius: 50px;
+    font-size: larger;
+    font-weight: 700;
+    color: blue;
+}
+button:hover{
+    cursor: pointer;
+    color: white;
+    background-image: none;
+    background-color: blue;
 }
